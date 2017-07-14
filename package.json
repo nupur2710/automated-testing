@@ -12,6 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nightwatch": "^0.9.16"
+    "async": "^2.5.0",
+    "csv-parse": "^1.2.0",
+    "exceljs": "^0.4.14",
+    "fs": "0.0.1-security",
+    "nightwatch": "^0.9.16",
+    "xlsx": "^0.10.8"
   }
 }
