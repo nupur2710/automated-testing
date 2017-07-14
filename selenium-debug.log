@@ -1,0 +1,148 @@
+18:17:59.576 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+18:17:59.577 INFO - Launching a standalone Selenium Server
+2017-07-14 18:17:59.759:INFO::main: Logging initialized @2002ms to org.seleniumhq.jetty9.util.log.StdErrLog
+18:18:00.031 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+18:18:00.031 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+18:18:00.031 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:18:00.032 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+18:18:00.032 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:18:00.032 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-14 18:18:00.403:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-14 18:18:00.668:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-07-14 18:18:00.924:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-14 18:18:00.925:INFO:osjs.Server:main: Started @3168ms
+18:18:00.925 INFO - Selenium Server is up and running
+18:18:01.849 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+18:18:01.962 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Dropdown Selection, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+18:18:02.123 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Dropdown Selection, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 7878
+Only local connections are allowed.
+18:18:08.280 INFO - Detected dialect: OSS
+18:18:08.404 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Dropdown Selection, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+18:18:08.513 INFO - Executing: [get: http://test.assos.com/TSHIRT])
+18:18:28.261 INFO - Done: [get: http://test.assos.com/TSHIRT]
+18:18:28.272 INFO - Executing: [set window size])
+18:18:28.469 INFO - Done: [set window size]
+18:18:28.494 INFO - Executing: [find elements: By.cssSelector: .product-views-option-dropdown-select])
+18:18:28.557 INFO - Done: [find elements: By.cssSelector: .product-views-option-dropdown-select]
+18:18:29.069 INFO - Executing: [find elements: By.cssSelector: .product-views-option-dropdown-select])
+18:18:29.091 INFO - Done: [find elements: By.cssSelector: .product-views-option-dropdown-select]
+18:18:29.114 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (64f44cf9cf7dc854aba1610d44a6f407)] -> css selector: .product-views-option-dropdown-select]])
+18:18:29.137 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (64f44cf9cf7dc854aba1610d44a6f407)] -> css selector: .product-views-option-dropdown-select]]
+18:18:29.145 INFO - Executing: [find element: By.cssSelector: span[value='20'].product-views-option-color-picker-box])
+18:18:29.167 INFO - Done: [find element: By.cssSelector: span[value='20'].product-views-option-color-picker-box]
+18:18:29.173 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (64f44cf9cf7dc854aba1610d44a6f407)] -> css selector: span[value='20'].product-views-option-color-picker-box]])
+18:18:29.293 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (64f44cf9cf7dc854aba1610d44a6f407)] -> css selector: span[value='20'].product-views-option-color-picker-box]]
+18:18:29.298 INFO - Executing: [find element: By.cssSelector: select[class="product-views-option-dropdown-select"] option[value="3"]])
+18:18:29.320 INFO - Done: [find element: By.cssSelector: select[class="product-views-option-dropdown-select"] option[value="3"]]
+18:18:29.324 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (64f44cf9cf7dc854aba1610d44a6f407)] -> css selector: select[class="product-views-option-dropdown-select"] option[value="3"]]])
+18:18:29.491 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (64f44cf9cf7dc854aba1610d44a6f407)] -> css selector: select[class="product-views-option-dropdown-select"] option[value="3"]]]
+18:18:29.500 INFO - Executing: [find element: By.cssSelector: .cart-add-to-cart-button-button])
+18:18:29.526 INFO - Done: [find element: By.cssSelector: .cart-add-to-cart-button-button]
+18:18:29.530 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (64f44cf9cf7dc854aba1610d44a6f407)] -> css selector: .cart-add-to-cart-button-button]])
+18:18:29.656 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (64f44cf9cf7dc854aba1610d44a6f407)] -> css selector: .cart-add-to-cart-button-button]]
+18:18:31.668 INFO - Executing: [find element: By.cssSelector: span[value='20'].product-views-option-color-picker-box])
+18:18:31.685 INFO - Done: [find element: By.cssSelector: span[value='20'].product-views-option-color-picker-box]
+18:18:31.689 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (64f44cf9cf7dc854aba1610d44a6f407)] -> css selector: span[value='20'].product-views-option-color-picker-box]])
+18:18:33.839 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: unknown error: Element <span data-label="label-custcol2" value="20" class="product-views-option-color-picker-box active" style="background: #ffffff"></span> is not clickable at point (823, 581). Other element would receive the click: <div class="modal-backdrop fade in" style="height: 876px;"></div>
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Admins-Mac-mini.local', ip: 'fe80:0:0:0:c1d:784:2281:5dc7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/60/y7x7b5yj47s94kbsrsghbsbc000114/T/.org.chromium.Chromium.gjYTC3}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 64f44cf9cf7dc854aba1610d44a6f407
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+18:18:33.876 WARN - Exception: unknown error: Element <span data-label="label-custcol2" value="20" class="product-views-option-color-picker-box active" style="background: #ffffff"></span> is not clickable at point (823, 581). Other element would receive the click: <div class="modal-backdrop fade in" style="height: 876px;"></div>
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Admins-Mac-mini.local', ip: 'fe80:0:0:0:c1d:784:2281:5dc7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/60/y7x7b5yj47s94kbsrsghbsbc000114/T/.org.chromium.Chromium.gjYTC3}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 64f44cf9cf7dc854aba1610d44a6f407
+18:18:34.006 INFO - Executing: [find element: By.cssSelector: .cart-add-to-cart-button-button])
+18:18:34.017 INFO - Done: [find element: By.cssSelector: .cart-add-to-cart-button-button]
+18:18:34.028 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (64f44cf9cf7dc854aba1610d44a6f407)] -> css selector: .cart-add-to-cart-button-button]])
+18:18:34.459 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" data-type="add-to-cart" data-action="sticky" class="cart-add-to-cart-button-button" disabled="disabled">...</button> is not clickable at point (765, 704). Other element would receive the click: <div class="modal-backdrop fade in" style="height: 876px;"></div>
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Admins-Mac-mini.local', ip: 'fe80:0:0:0:c1d:784:2281:5dc7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/60/y7x7b5yj47s94kbsrsghbsbc000114/T/.org.chromium.Chromium.gjYTC3}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 64f44cf9cf7dc854aba1610d44a6f407
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+18:18:34.460 WARN - Exception: unknown error: Element <button type="submit" data-type="add-to-cart" data-action="sticky" class="cart-add-to-cart-button-button" disabled="disabled">...</button> is not clickable at point (765, 704). Other element would receive the click: <div class="modal-backdrop fade in" style="height: 876px;"></div>
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Admins-Mac-mini.local', ip: 'fe80:0:0:0:c1d:784:2281:5dc7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/60/y7x7b5yj47s94kbsrsghbsbc000114/T/.org.chromium.Chromium.gjYTC3}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 64f44cf9cf7dc854aba1610d44a6f407
