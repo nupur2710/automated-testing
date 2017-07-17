@@ -1,58 +1,52 @@
-19:54:26.631 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-19:54:26.632 INFO - Launching a standalone Selenium Server
-2017-07-14 19:54:26.769:INFO::main: Logging initialized @1889ms to org.seleniumhq.jetty9.util.log.StdErrLog
-19:54:27.030 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+15:45:02.317 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+15:45:02.318 INFO - Launching a standalone Selenium Server
+2017-07-17 15:45:02.456:INFO::main: Logging initialized @2207ms to org.seleniumhq.jetty9.util.log.StdErrLog
+15:45:02.717 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-19:54:27.030 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+15:45:02.717 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-19:54:27.030 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-19:54:27.030 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+15:45:02.718 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:45:02.718 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-19:54:27.031 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-19:54:27.031 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-07-14 19:54:27.413:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-07-14 19:54:27.601:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
-2017-07-14 19:54:27.812:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-07-14 19:54:27.812:INFO:osjs.Server:main: Started @2933ms
-19:54:27.812 INFO - Selenium Server is up and running
-19:54:28.469 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-19:54:28.594 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Popup Clicks, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-19:54:28.755 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Popup Clicks, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 39508
+15:45:02.718 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:45:02.718 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-17 15:45:03.123:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-17 15:45:03.355:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-07-17 15:45:03.566:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-17 15:45:03.567:INFO:osjs.Server:main: Started @3318ms
+15:45:03.567 INFO - Selenium Server is up and running
+15:45:04.335 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+15:45:04.460 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+15:45:04.654 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 12466
 Only local connections are allowed.
-19:54:34.735 INFO - Detected dialect: OSS
-19:54:34.792 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Popup Clicks, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-19:54:34.901 INFO - Executing: [get: http://us.staging.assos.com/search])
-19:54:40.186 INFO - Done: [get: http://us.staging.assos.com/search]
-19:54:40.194 INFO - Executing: [set window size])
-19:54:40.398 INFO - Done: [set window size]
-19:54:40.415 INFO - Executing: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:40.475 INFO - Done: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:40.982 INFO - Executing: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:40.991 INFO - Done: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:41.500 INFO - Executing: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:41.510 INFO - Done: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:42.034 INFO - Executing: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:42.043 INFO - Done: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:42.552 INFO - Executing: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:45.380 INFO - Done: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:45.887 INFO - Executing: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:45.896 INFO - Done: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:46.404 INFO - Executing: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:46.413 INFO - Done: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:46.921 INFO - Executing: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:46.930 INFO - Done: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:47.439 INFO - Executing: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:47.449 INFO - Done: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:47.955 INFO - Executing: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:50.471 INFO - Done: [find elements: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:50.481 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (33c1856b5d1b2970a418ae9565968529)] -> css selector: div[data-sku='H.rallyBoxer_s7']]])
-19:54:50.505 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (33c1856b5d1b2970a418ae9565968529)] -> css selector: div[data-sku='H.rallyBoxer_s7']]]
-19:54:50.510 INFO - Executing: [find element: By.cssSelector: div[data-sku='H.rallyBoxer_s7']])
-19:54:50.551 INFO - Done: [find element: By.cssSelector: div[data-sku='H.rallyBoxer_s7']]
-19:54:50.559 INFO - Executing: [mousemove: 0 true])
-19:54:50.594 INFO - Done: [mousemove: 0 true]
-19:54:52.604 INFO - Executing: [find element: By.cssSelector: div[data-sku='H.rallyBoxer_s7'] .facets-item-cell-grid-quick-view-link])
-19:54:52.624 INFO - Done: [find element: By.cssSelector: div[data-sku='H.rallyBoxer_s7'] .facets-item-cell-grid-quick-view-link]
-19:54:52.628 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (33c1856b5d1b2970a418ae9565968529)] -> css selector: div[data-sku='H.rallyBoxer_s7'] .facets-item-cell-grid-quick-view-link]])
-19:54:52.699 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (33c1856b5d1b2970a418ae9565968529)] -> css selector: div[data-sku='H.rallyBoxer_s7'] .facets-item-cell-grid-quick-view-link]]
+15:45:10.656 INFO - Detected dialect: OSS
+15:45:10.713 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+15:45:10.866 INFO - Executing: [get: http://test.assos.com/])
+15:45:47.120 INFO - Done: [get: http://test.assos.com/]
+15:45:47.148 INFO - Executing: [find elements: By.cssSelector: .header-profile-login-link])
+15:45:47.236 INFO - Done: [find elements: By.cssSelector: .header-profile-login-link]
+15:45:47.243 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:47.279 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:47.790 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:47.799 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:48.304 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:48.313 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:48.822 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:48.832 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:49.341 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:49.351 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:49.858 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:49.867 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:50.376 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:50.385 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:50.891 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:50.900 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:51.408 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:51.418 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:51.928 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:51.936 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:52.447 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
+15:45:52.456 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
+15:45:52.519 INFO - Executing: [delete session: f968c72b-5dbc-4782-b9d4-53581cfc2532])
+15:45:52.959 INFO - Done: [delete session: f968c72b-5dbc-4782-b9d4-53581cfc2532]

@@ -1,7 +1,9 @@
 module.exports = {
   'step one': function(browser) {
+    console.log(browser);
+    console.log(browser.launchUrl);
     browser
-      .url(browser.launchUrl)
+      .url(browser.launch_url)
       .waitForElementVisible('.header-profile-login-link', 5000)
       .click('.header-profile-login-link')
       .waitForElementVisible(
