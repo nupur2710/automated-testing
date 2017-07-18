@@ -1,52 +1,52 @@
-15:45:02.317 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-15:45:02.318 INFO - Launching a standalone Selenium Server
-2017-07-17 15:45:02.456:INFO::main: Logging initialized @2207ms to org.seleniumhq.jetty9.util.log.StdErrLog
-15:45:02.717 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+19:59:11.253 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+19:59:11.253 INFO - Launching a standalone Selenium Server
+2017-07-17 19:59:11.305:INFO::main: Logging initialized @410ms to org.seleniumhq.jetty9.util.log.StdErrLog
+19:59:11.355 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-15:45:02.717 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+19:59:11.355 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-15:45:02.718 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:45:02.718 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+19:59:11.355 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:59:11.356 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-15:45:02.718 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:45:02.718 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-07-17 15:45:03.123:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-07-17 15:45:03.355:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
-2017-07-17 15:45:03.566:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-07-17 15:45:03.567:INFO:osjs.Server:main: Started @3318ms
-15:45:03.567 INFO - Selenium Server is up and running
-15:45:04.335 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-15:45:04.460 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-15:45:04.654 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 12466
+19:59:11.356 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:59:11.356 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-17 19:59:11.399:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-17 19:59:11.439:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-07-17 19:59:11.475:INFO:osjs.AbstractConnector:main: Started ServerConnector@2bc03662{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-17 19:59:11.476:INFO:osjs.Server:main: Started @581ms
+19:59:11.476 INFO - Selenium Server is up and running
+19:59:11.883 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+19:59:11.908 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Iframe Example, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+19:59:11.925 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Iframe Example, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 3222
 Only local connections are allowed.
-15:45:10.656 INFO - Detected dialect: OSS
-15:45:10.713 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-15:45:10.866 INFO - Executing: [get: http://test.assos.com/])
-15:45:47.120 INFO - Done: [get: http://test.assos.com/]
-15:45:47.148 INFO - Executing: [find elements: By.cssSelector: .header-profile-login-link])
-15:45:47.236 INFO - Done: [find elements: By.cssSelector: .header-profile-login-link]
-15:45:47.243 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:47.279 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:47.790 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:47.799 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:48.304 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:48.313 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:48.822 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:48.832 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:49.341 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:49.351 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:49.858 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:49.867 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:50.376 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:50.385 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:50.891 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:50.900 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:51.408 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:51.418 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:51.928 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:51.936 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:52.447 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]])
-15:45:52.456 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7a09d794df21dd8ecc4f8396f640ca9b)] -> css selector: .header-profile-login-link]]
-15:45:52.519 INFO - Executing: [delete session: f968c72b-5dbc-4782-b9d4-53581cfc2532])
-15:45:52.959 INFO - Done: [delete session: f968c72b-5dbc-4782-b9d4-53581cfc2532]
+19:59:16.395 INFO - Detected dialect: OSS
+19:59:16.421 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Iframe Example, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+19:59:16.447 INFO - Executing: [get: http://test.assos.com])
+19:59:42.699 INFO - Done: [get: http://test.assos.com]
+19:59:42.706 INFO - Executing: [set window size])
+19:59:42.857 INFO - Done: [set window size]
+19:59:42.865 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:42.947 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:43.454 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:43.464 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:43.973 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:43.985 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:44.495 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:44.503 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:45.013 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:45.022 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:45.531 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:45.540 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:46.045 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:46.054 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:46.563 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:46.572 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:47.078 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:47.087 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:47.596 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:47.604 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:48.114 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
+19:59:48.123 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
+19:59:48.129 INFO - Executing: [delete session: d046d333-464d-4633-9a58-39040a6dc822])
+19:59:48.461 INFO - Done: [delete session: d046d333-464d-4633-9a58-39040a6dc822]
