@@ -75,11 +75,10 @@ module.exports = {
                         browser.click(
                           '.product-reviews-form-actions-button-submit',
                           function() {
-                            browser.expect
-                              .element('p[data-validation-error="block"]')
-                              .text.to.equal(
-                                'Text is requiredTitle is required'
-                              );
+                            browser.verify.containsText(
+                              'p[data-validation-error="block"]',
+                              'Rating is required'
+                            );
                             //console the error msg for  style, true to size and comfort
 
                             console.log(
@@ -91,13 +90,10 @@ module.exports = {
                                 browser.click(
                                   '.product-reviews-form-actions-button-submit',
                                   function() {
-                                    browser.expect
-                                      .element(
-                                        'p[data-validation-error="block"]'
-                                      )
-                                      .text.to.equal(
-                                        'Text is requiredTitle is required'
-                                      );
+                                    browser.verify.containsText(
+                                      'p[data-validation-error="block"]',
+                                      'Rating is required'
+                                    );
                                     //console the error msg for  true to size and comfort
 
                                     console.log(
@@ -109,13 +105,10 @@ module.exports = {
                                         browser.click(
                                           '.product-reviews-form-actions-button-submit',
                                           function() {
-                                            browser.expect
-                                              .element(
-                                                'p[data-validation-error="block"]'
-                                              )
-                                              .text.to.equal(
-                                                'Text is requiredTitle is required'
-                                              );
+                                            browser.verify.containsText(
+                                              'p[data-validation-error="block"]',
+                                              'Rating is required'
+                                            );
                                             //console the error msg for  comfort
 
                                             console.log(
@@ -129,13 +122,10 @@ module.exports = {
                                             browser.click(
                                               '.product-reviews-form-actions-button-submit',
                                               function() {
-                                                browser.expect
-                                                  .element(
-                                                    'p[data-validation-error="block"]'
-                                                  )
-                                                  .text.to.equal(
-                                                    'Text is requiredTitle is required'
-                                                  );
+                                                browser.verify.containsText(
+                                                  'p[data-validation-error="block"]',
+                                                  'Rating is required'
+                                                );
                                                 //console the error msg for  review description
 
                                                 console.log(
@@ -152,13 +142,10 @@ module.exports = {
                                                 browser.click(
                                                   '.product-reviews-form-actions-button-submit',
                                                   function() {
-                                                    browser.expect
-                                                      .element(
-                                                        'p[data-validation-error="block"]'
-                                                      )
-                                                      .text.to.equal(
-                                                        'Text is requiredTitle is required'
-                                                      );
+                                                    browser.verify.containsText(
+                                                      'p[data-validation-error="block"]',
+                                                      'Rating is required'
+                                                    );
                                                     //console the error msg for review title
                                                   }
                                                 );
