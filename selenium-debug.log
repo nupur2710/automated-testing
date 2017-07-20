@@ -1,52 +1,90 @@
-19:59:11.253 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-19:59:11.253 INFO - Launching a standalone Selenium Server
-2017-07-17 19:59:11.305:INFO::main: Logging initialized @410ms to org.seleniumhq.jetty9.util.log.StdErrLog
-19:59:11.355 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+12:04:11.820 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+12:04:11.821 INFO - Launching a standalone Selenium Server
+2017-07-20 12:04:11.971:INFO::main: Logging initialized @1833ms to org.seleniumhq.jetty9.util.log.StdErrLog
+12:04:12.231 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-19:59:11.355 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+12:04:12.232 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-19:59:11.355 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-19:59:11.356 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+12:04:12.232 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:04:12.232 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-19:59:11.356 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-19:59:11.356 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-07-17 19:59:11.399:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-07-17 19:59:11.439:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
-2017-07-17 19:59:11.475:INFO:osjs.AbstractConnector:main: Started ServerConnector@2bc03662{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-07-17 19:59:11.476:INFO:osjs.Server:main: Started @581ms
-19:59:11.476 INFO - Selenium Server is up and running
-19:59:11.883 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-19:59:11.908 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Iframe Example, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-19:59:11.925 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Iframe Example, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 3222
+12:04:12.232 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:04:12.232 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-20 12:04:12.582:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-20 12:04:12.758:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-07-20 12:04:12.980:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-20 12:04:12.981:INFO:osjs.Server:main: Started @2843ms
+12:04:12.981 INFO - Selenium Server is up and running
+12:04:13.726 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+12:04:13.841 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Writer Review Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:04:14.001 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Writer Review Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 41527
 Only local connections are allowed.
-19:59:16.395 INFO - Detected dialect: OSS
-19:59:16.421 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Iframe Example, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-19:59:16.447 INFO - Executing: [get: http://test.assos.com])
-19:59:42.699 INFO - Done: [get: http://test.assos.com]
-19:59:42.706 INFO - Executing: [set window size])
-19:59:42.857 INFO - Done: [set window size]
-19:59:42.865 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:42.947 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:43.454 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:43.464 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:43.973 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:43.985 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:44.495 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:44.503 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:45.013 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:45.022 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:45.531 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:45.540 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:46.045 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:46.054 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:46.563 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:46.572 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:47.078 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:47.087 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:47.596 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:47.604 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:48.114 INFO - Executing: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder])
-19:59:48.123 INFO - Done: [find elements: By.cssSelector: .product-video-slider-holder.home-video-banner-cms-holder]
-19:59:48.129 INFO - Executing: [delete session: d046d333-464d-4633-9a58-39040a6dc822])
-19:59:48.461 INFO - Done: [delete session: d046d333-464d-4633-9a58-39040a6dc822]
+12:04:18.919 INFO - Detected dialect: OSS
+12:04:19.000 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Writer Review Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:04:19.065 INFO - Executing: [get: http://test.assos.com/TSHIRT])
+12:04:29.930 INFO - Done: [get: http://test.assos.com/TSHIRT]
+12:04:29.940 INFO - Executing: [set window size])
+12:04:30.133 INFO - Done: [set window size]
+12:04:32.144 INFO - Executing: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button])
+12:04:32.195 INFO - Done: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button]
+12:04:32.201 INFO - Executing: [get location in view: 0 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-center-container-footer-button.primary-button]])
+12:04:32.231 INFO - Done: [get location in view: 0 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-center-container-footer-button.primary-button]]
+12:04:32.240 INFO - Executing: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button])
+12:04:32.264 INFO - Done: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button]
+12:04:32.268 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-center-container-footer-button.primary-button]])
+12:04:32.296 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-center-container-footer-button.primary-button]]
+12:04:32.303 INFO - Executing: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button])
+12:04:32.313 INFO - Done: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button]
+12:04:32.317 INFO - Executing: [click: 0 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-center-container-footer-button.primary-button]])
+12:04:32.434 INFO - Done: [click: 0 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-center-container-footer-button.primary-button]]
+12:04:34.447 INFO - Executing: [find elements: By.cssSelector: .header-profile-login-link])
+12:04:34.540 INFO - Done: [find elements: By.cssSelector: .header-profile-login-link]
+12:04:34.543 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .header-profile-login-link]])
+12:04:34.562 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .header-profile-login-link]]
+12:04:34.569 INFO - Executing: [find element: By.cssSelector: button[data-action="show-productlist-control"]])
+12:04:34.610 INFO - Done: [find element: By.cssSelector: button[data-action="show-productlist-control"]]
+12:04:34.613 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: button[data-action="show-productlist-control"]]])
+12:05:03.230 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: button[data-action="show-productlist-control"]]]
+12:05:03.236 INFO - Executing: [find elements: By.cssSelector: .login-register-login-form-input#login-email])
+12:05:03.260 INFO - Done: [find elements: By.cssSelector: .login-register-login-form-input#login-email]
+12:05:03.263 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .login-register-login-form-input#login-email]])
+12:05:03.281 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .login-register-login-form-input#login-email]]
+12:05:03.286 INFO - Executing: [find element: By.cssSelector: #login-email])
+12:05:03.304 INFO - Done: [find element: By.cssSelector: #login-email]
+12:05:03.309 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .login-register-login-form-input#login-email], [t, e, s, t, ., p, a, p, e, r, p, l, a, n, e, @, g, m, a, i, l, ., c, o, m]])
+12:05:03.566 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .login-register-login-form-input#login-email], [t, e, s, t, ., p, a, p, e, r, p, l, a, n, e, @, g, m, a, i, l, ., c, o, m]]
+12:05:03.572 INFO - Executing: [find element: By.cssSelector: #login-password])
+12:05:03.595 INFO - Done: [find element: By.cssSelector: #login-password]
+12:05:03.601 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: #login-password], [1, 2, 3, a, s, s, o, s]])
+12:05:03.674 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: #login-password], [1, 2, 3, a, s, s, o, s]]
+12:05:03.679 INFO - Executing: [find element: By.cssSelector: #login-button])
+12:05:03.699 INFO - Done: [find element: By.cssSelector: #login-button]
+12:05:03.703 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: #login-button]])
+12:05:03.766 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: #login-button]]
+12:05:03.772 INFO - Executing: [implicit wait: 3000])
+12:05:03.777 INFO - Done: [implicit wait: 3000]
+12:05:05.788 INFO - Executing: [find elements: By.cssSelector: .product-reviews-form-new])
+12:05:18.129 INFO - Done: [find elements: By.cssSelector: .product-reviews-form-new]
+12:05:18.134 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-form-new]])
+12:05:18.153 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-form-new]]
+12:05:20.162 INFO - Executing: [find element: By.cssSelector: .product-reviews-form-actions-button-submit])
+12:05:20.181 INFO - Done: [find element: By.cssSelector: .product-reviews-form-actions-button-submit]
+12:05:20.184 INFO - Executing: [click: 7 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-form-actions-button-submit]])
+12:05:20.237 INFO - Done: [click: 7 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-form-actions-button-submit]]
+12:05:20.246 INFO - Executing: [find element: By.cssSelector: div[data-name="__overall__"] p[data-validation-error="block"]])
+12:05:20.289 INFO - Done: [find element: By.cssSelector: div[data-name="__overall__"] p[data-validation-error="block"]]
+12:05:20.293 INFO - Executing: [get text: 8 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: div[data-name="__overall__"] p[data-validation-error="block"]]])
+12:05:20.314 INFO - Done: [get text: 8 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: div[data-name="__overall__"] p[data-validation-error="block"]]]
+12:05:20.318 INFO - Executing: [find element: By.cssSelector: .product-reviews-form-global-star-rating .global-views-star-rating-area-writable button[value='2']])
+12:05:20.336 INFO - Done: [find element: By.cssSelector: .product-reviews-form-global-star-rating .global-views-star-rating-area-writable button[value='2']]
+12:05:20.341 INFO - Executing: [click: 9 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-form-global-star-rating .global-views-star-rating-area-writable button[value='2']]])
+12:05:20.405 INFO - Done: [click: 9 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-form-global-star-rating .global-views-star-rating-area-writable button[value='2']]]
+12:05:20.413 INFO - Executing: [find element: By.cssSelector: .product-reviews-form-actions-button-submit])
+12:05:20.421 INFO - Done: [find element: By.cssSelector: .product-reviews-form-actions-button-submit]
+12:05:20.425 INFO - Executing: [click: 7 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-form-actions-button-submit]])
+12:05:20.457 INFO - Done: [click: 7 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: .product-reviews-form-actions-button-submit]]
+12:05:20.464 INFO - Executing: [find element: By.cssSelector: p[data-validation-error="block"]])
+12:05:20.488 INFO - Done: [find element: By.cssSelector: p[data-validation-error="block"]]
+12:05:20.494 INFO - Executing: [get text: 10 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: p[data-validation-error="block"]]])
+12:05:20.518 INFO - Done: [get text: 10 [[ChromeDriver: chrome on MAC (31941ac827e873bd825f6bfe3ca08b8b)] -> css selector: p[data-validation-error="block"]]]

@@ -1,5 +1,5 @@
 module.exports = {
-  'step one': function(browser) {
+  'step_one': function(browser) {
     console.log(browser);
     console.log(browser.launchUrl);
     browser
@@ -11,13 +11,13 @@ module.exports = {
         3000
       );
   },
-  'step two': function(browser) {
+  'step_two': function(browser) {
     browser
       .setValue('#login-email', 'test.paperplane@gmail.com')
       .setValue('#login-password', '123assos')
       .click('#login-button');
   },
-  'step three': function(browser) {
+  'step_three': function(browser) {
     browser
         .waitForElementVisible('.myaccount-layout-title', 25000).end();
   },
