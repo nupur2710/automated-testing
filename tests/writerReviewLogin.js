@@ -158,7 +158,6 @@ module.exports = {
                                                   "div[data-input='text'] p[data-validation-error='block']",
                                                   'Text is required'
                                                 );
-                                                //console the error msg for  review description
 
                                                 console.log(
                                                   'case 7: If review description is added, review title is mandatory'
@@ -179,7 +178,6 @@ module.exports = {
                                                         "div[data-input='title'] p[data-validation-error='block']",
                                                         'Title is required'
                                                       );
-                                                      //console the error msg for review title
                                                     }
                                                   );
                                               }

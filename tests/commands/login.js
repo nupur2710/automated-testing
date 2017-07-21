@@ -1,7 +1,7 @@
 module.exports = {
-  command: function(clickUrl) {
-    this.waitForElementVisible('.header-profile-login-link', 5000)
-      .click('.header-profile-login-link')
+  command: function(loginSelector) {
+    return this.waitForElementVisible(loginSelector, 2000)
+      .click(loginSelector)
       .waitForElementVisible(
         '.login-register-login-form-input#login-email',
         3000
