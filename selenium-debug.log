@@ -1,128 +1,70 @@
-15:25:23.839 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-15:25:23.840 INFO - Launching a standalone Selenium Server
-2017-07-20 15:25:23.865:INFO::main: Logging initialized @262ms to org.seleniumhq.jetty9.util.log.StdErrLog
-15:25:23.919 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+12:18:16.781 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+12:18:16.782 INFO - Launching a standalone Selenium Server
+2017-07-21 12:18:16.809:INFO::main: Logging initialized @252ms to org.seleniumhq.jetty9.util.log.StdErrLog
+12:18:16.860 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-15:25:23.919 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+12:18:16.860 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-15:25:23.919 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:25:23.919 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+12:18:16.860 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:18:16.860 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-15:25:23.919 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:25:23.920 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-07-20 15:25:23.961:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-07-20 15:25:24.006:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
-2017-07-20 15:25:24.044:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-07-20 15:25:24.045:INFO:osjs.Server:main: Started @442ms
-15:25:24.045 INFO - Selenium Server is up and running
-15:25:24.277 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-15:25:24.302 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Writer Review Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-15:25:24.322 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Writer Review Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 22821
+12:18:16.860 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:18:16.860 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-21 12:18:16.905:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-21 12:18:16.947:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-07-21 12:18:16.991:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-21 12:18:16.992:INFO:osjs.Server:main: Started @436ms
+12:18:16.992 INFO - Selenium Server is up and running
+12:18:17.235 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+12:18:17.262 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Writer Review Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:18:17.281 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Writer Review Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 31472
 Only local connections are allowed.
-15:25:26.124 INFO - Detected dialect: OSS
-15:25:26.147 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Writer Review Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-15:25:26.170 INFO - Executing: [get: http://test.assos.com/TSHIRT])
-15:25:47.557 INFO - Done: [get: http://test.assos.com/TSHIRT]
-15:25:47.575 INFO - Executing: [set window size])
-15:25:47.787 INFO - Done: [set window size]
-15:25:49.805 INFO - Executing: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button])
-15:26:13.418 WARN - Exception thrown
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".product-reviews-center-container-footer-button.primary-button"}
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 22.80 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'Admins-Mac-mini.local', ip: 'fe80:0:0:0:1c60:ba1a:7590:6de%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/60/y7x7b5yj47s94kbsrsghbsbc000114/T/.org.chromium.Chromium.5V0fo7}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 6c784f754c805c0f60dc7a33e1ff2e8b
-*** Element info: {Using=css selector, value=.product-reviews-center-container-footer-button.primary-button}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
-	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:748)
-15:26:13.421 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":".product-reviews-center-container-footer-button.primary-button"}
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 22.80 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'Admins-Mac-mini.local', ip: 'fe80:0:0:0:1c60:ba1a:7590:6de%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/60/y7x7b5yj47s94kbsrsghbsbc000114/T/.org.chromium.Chromium.5V0fo7}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 6c784f754c805c0f60dc7a33e1ff2e8b
-*** Element info: {Using=css selector, value=.product-reviews-center-container-footer-button.primary-button}
-15:26:13.521 INFO - Executing: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button])
-15:26:13.851 WARN - Exception thrown
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".product-reviews-center-container-footer-button.primary-button"}
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'Admins-Mac-mini.local', ip: 'fe80:0:0:0:1c60:ba1a:7590:6de%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/60/y7x7b5yj47s94kbsrsghbsbc000114/T/.org.chromium.Chromium.5V0fo7}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 6c784f754c805c0f60dc7a33e1ff2e8b
-*** Element info: {Using=css selector, value=.product-reviews-center-container-footer-button.primary-button}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
-	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:748)
-15:26:13.852 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":".product-reviews-center-container-footer-button.primary-button"}
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'Admins-Mac-mini.local', ip: 'fe80:0:0:0:1c60:ba1a:7590:6de%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/60/y7x7b5yj47s94kbsrsghbsbc000114/T/.org.chromium.Chromium.5V0fo7}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 6c784f754c805c0f60dc7a33e1ff2e8b
-*** Element info: {Using=css selector, value=.product-reviews-center-container-footer-button.primary-button}
-15:26:13.930 INFO - Executing: [delete session: 6a145b03-95ef-49fc-9bf5-a7aec96e3c28])
-15:26:14.168 INFO - Done: [delete session: 6a145b03-95ef-49fc-9bf5-a7aec96e3c28]
+12:18:18.752 INFO - Detected dialect: OSS
+12:18:18.789 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Writer Review Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:18:18.829 INFO - Executing: [get: http://test.assos.com/TSHIRT])
+12:19:02.174 INFO - Done: [get: http://test.assos.com/TSHIRT]
+12:19:02.183 INFO - Executing: [set window size])
+12:19:02.349 INFO - Done: [set window size]
+12:19:04.360 INFO - Executing: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button])
+12:19:04.397 INFO - Done: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button]
+12:19:04.407 INFO - Executing: [get location in view: 0 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .product-reviews-center-container-footer-button.primary-button]])
+12:19:04.450 INFO - Done: [get location in view: 0 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .product-reviews-center-container-footer-button.primary-button]]
+12:19:04.461 INFO - Executing: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button])
+12:19:04.476 INFO - Done: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button]
+12:19:04.482 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .product-reviews-center-container-footer-button.primary-button]])
+12:19:04.502 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .product-reviews-center-container-footer-button.primary-button]]
+12:19:04.507 INFO - Executing: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button])
+12:19:04.517 INFO - Done: [find element: By.cssSelector: .product-reviews-center-container-footer-button.primary-button]
+12:19:04.522 INFO - Executing: [click: 0 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .product-reviews-center-container-footer-button.primary-button]])
+12:19:04.638 INFO - Done: [click: 0 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .product-reviews-center-container-footer-button.primary-button]]
+12:19:06.653 INFO - Executing: [find elements: By.cssSelector: .header-profile-login-link])
+12:19:06.678 INFO - Done: [find elements: By.cssSelector: .header-profile-login-link]
+12:19:06.682 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .header-profile-login-link]])
+12:19:06.703 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .header-profile-login-link]]
+12:19:06.709 INFO - Executing: [find element: By.cssSelector: button[data-action="show-productlist-control"]])
+12:19:06.728 INFO - Done: [find element: By.cssSelector: button[data-action="show-productlist-control"]]
+12:19:06.732 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: button[data-action="show-productlist-control"]]])
+12:19:31.612 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: button[data-action="show-productlist-control"]]]
+12:19:31.617 INFO - Executing: [find elements: By.cssSelector: .login-register-login-form-input#login-email])
+12:19:31.644 INFO - Done: [find elements: By.cssSelector: .login-register-login-form-input#login-email]
+12:19:31.649 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .login-register-login-form-input#login-email]])
+12:19:31.670 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .login-register-login-form-input#login-email]]
+12:19:31.676 INFO - Executing: [find element: By.cssSelector: #login-email])
+12:19:31.698 INFO - Done: [find element: By.cssSelector: #login-email]
+12:19:31.706 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .login-register-login-form-input#login-email], [t, e, s, t, ., p, a, p, e, r, p, l, a, n, e, @, g, m, a, i, l, ., c, o, m]])
+12:19:31.875 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: .login-register-login-form-input#login-email], [t, e, s, t, ., p, a, p, e, r, p, l, a, n, e, @, g, m, a, i, l, ., c, o, m]]
+12:19:31.880 INFO - Executing: [find element: By.cssSelector: #login-password])
+12:19:31.899 INFO - Done: [find element: By.cssSelector: #login-password]
+12:19:31.904 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: #login-password], [1, 2, 3, a, s, s, o, s]])
+12:19:31.976 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: #login-password], [1, 2, 3, a, s, s, o, s]]
+12:19:31.981 INFO - Executing: [find element: By.cssSelector: #login-button])
+12:19:32.001 INFO - Done: [find element: By.cssSelector: #login-button]
+12:19:32.006 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: #login-button]])
+12:19:32.072 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (c7082fce49ee1e19f2b3c9944fcf512a)] -> css selector: #login-button]]
+12:19:32.079 INFO - Executing: [implicit wait: 3000])
+12:19:32.082 INFO - Done: [implicit wait: 3000]
+12:19:34.093 INFO - Executing: [find elements: By.cssSelector: .product-reviews-form-new])
+12:19:46.972 INFO - Done: [find elements: By.cssSelector: .product-reviews-form-new]
+12:19:46.979 INFO - Executing: [delete session: a79e45bc-ffad-4913-82ba-4ac8ead35e2c])
+12:19:47.249 INFO - Done: [delete session: a79e45bc-ffad-4913-82ba-4ac8ead35e2c]

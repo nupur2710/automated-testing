@@ -16,7 +16,7 @@ module.exports = {
   checking_test_cases: function(browser) {
     browser
       .pause(2000)
-      .waitForElementVisible('.product-reviews-form-new', 9500, function() {
+      .waitForElementVisible('.product-reviews-form-new', 10000, function() {
         //pause to be able to see the click
         browser.pause(2000);
 
@@ -30,25 +30,35 @@ module.exports = {
         // 6. enter rating, review title, refiew description, performance ratings - form submitted
 
         console.log(
-          'case 1: rrating, performance, style, true to size and comfort cannot be empty'
+          'case 1: Rating, Performance, Style, True to Size and Comfort cannot be empty'
         );
         browser.click(
           '.product-reviews-form-actions-button-submit',
           function() {
-            // browser.expect
-            //   .element('div[data-name="__overall__"] p[data-validation-error="block"]')
-            //   .text.to.equal(
-            //     'Rating is required'
-            //   );
-
             browser.verify.containsText(
               'div[data-name="__overall__"] p[data-validation-error="block"]',
               'Rating is required'
             );
-            //console the error msg for rating, performance, style, true to size and comfort
+            browser.verify.containsText(
+              'div[data-name="Performance"] p[data-validation-error="block"]',
+              'Performance rating is required'
+            );
+            browser.verify.containsText(
+              'div[data-name="Style"] p[data-validation-error="block"]',
+              'Style rating is required'
+            );
+            browser.verify.containsText(
+              'div[data-name=" True to Size"] p[data-validation-error="block"]',
+              'True to Size rating is required'
+            );
+
+            browser.verify.containsText(
+              'div[data-name="Comfort"] p[data-validation-error="block"]',
+              'Comfort rating is required'
+            );
 
             console.log(
-              'case 2: performance, style, true to size and comfort cannot be empty'
+              'case 2: Performance, Style, True to Size and Comfort cannot be empty'
             );
             browser.click(
               ".product-reviews-form-global-star-rating .global-views-star-rating-area-writable button[value='2']",
@@ -56,18 +66,25 @@ module.exports = {
                 browser.click(
                   '.product-reviews-form-actions-button-submit',
                   function() {
-                    // browser.expect
-                    //   .element(
-                    //     'div[data-name="__overall__"] p[data-validation-error="block"]'
-                    //   )
-                    //   .text.to.equal('Text is requiredTitle is required');
-                    //console the error msg for performance, style, true to size and comfort
                     browser.verify.containsText(
-                      'p[data-validation-error="block"]',
-                      'Rating is required'
+                      'div[data-name="Performance"] p[data-validation-error="block"]',
+                      'Performance rating is required'
+                    );
+                    browser.verify.containsText(
+                      'div[data-name="Style"] p[data-validation-error="block"]',
+                      'Style rating is required'
+                    );
+                    browser.verify.containsText(
+                      'div[data-name=" True to Size"] p[data-validation-error="block"]',
+                      'True to Size rating is required'
+                    );
+
+                    browser.verify.containsText(
+                      'div[data-name="Comfort"] p[data-validation-error="block"]',
+                      'Comfort rating is required'
                     );
                     console.log(
-                      'case 3: style, true to size and comfort cannot b empty'
+                      'case 3: Style, True to Size and Comfort cannot b empty'
                     );
                     browser.click(
                       "div[data-name='Performance'] button[value='3']",
@@ -76,10 +93,18 @@ module.exports = {
                           '.product-reviews-form-actions-button-submit',
                           function() {
                             browser.verify.containsText(
-                              'p[data-validation-error="block"]',
-                              'Rating is required'
+                              'div[data-name="Style"] p[data-validation-error="block"]',
+                              'Style rating is required'
                             );
-                            //console the error msg for  style, true to size and comfort
+                            browser.verify.containsText(
+                              'div[data-name=" True to Size"] p[data-validation-error="block"]',
+                              'True to Size rating is required'
+                            );
+
+                            browser.verify.containsText(
+                              'div[data-name="Comfort"] p[data-validation-error="block"]',
+                              'Comfort rating is required'
+                            );
 
                             console.log(
                               'case 4: true to size and comfort cannot b empty'
@@ -91,64 +116,72 @@ module.exports = {
                                   '.product-reviews-form-actions-button-submit',
                                   function() {
                                     browser.verify.containsText(
-                                      'p[data-validation-error="block"]',
-                                      'Rating is required'
+                                      'div[data-name=" True to Size"] p[data-validation-error="block"]',
+                                      'True to Size rating is required'
                                     );
-                                    //console the error msg for  true to size and comfort
+
+                                    browser.verify.containsText(
+                                      'div[data-name="Comfort"] p[data-validation-error="block"]',
+                                      'Comfort rating is required'
+                                    );
 
                                     console.log(
                                       'case 5: comfort cannot b empty'
                                     );
                                     browser.click(
-                                      "div[data-name='True to Size'] button[value='3']",
+                                      "div[data-name=' True to Size'] button[value='3']",
                                       function() {
                                         browser.click(
                                           '.product-reviews-form-actions-button-submit',
                                           function() {
                                             browser.verify.containsText(
-                                              'p[data-validation-error="block"]',
-                                              'Rating is required'
+                                              'div[data-name="Comfort"] p[data-validation-error="block"]',
+                                              'Comfort rating is required'
                                             );
-                                            //console the error msg for  comfort
 
                                             console.log(
                                               'case 6: If review title is added, review description is mandatory'
                                             );
-                                            browser.setValue(
-                                              '.product-reviews-form-content-group-input#title',
-                                              'demo title'
-                                            );
+                                            browser
+                                              .click(
+                                                "div[data-name='Comfort'] button[value='3']"
+                                              )
+                                              .setValue(
+                                                '.product-reviews-form-content-group-input#title',
+                                                'demo title'
+                                              );
 
                                             browser.click(
                                               '.product-reviews-form-actions-button-submit',
                                               function() {
                                                 browser.verify.containsText(
-                                                  'p[data-validation-error="block"]',
-                                                  'Rating is required'
+                                                  "div[data-input='text'] p[data-validation-error='block']",
+                                                  'Text is required'
                                                 );
                                                 //console the error msg for  review description
 
                                                 console.log(
                                                   'case 7: If review description is added, review title is mandatory'
                                                 );
-                                                browser.setValue(
-                                                  '.product-reviews-form-content-group-input#title',
-                                                  ''
-                                                );
-                                                browser.setValue(
-                                                  '.product-reviews-form-content-group-text',
-                                                  'demo description'
-                                                );
-                                                browser.click(
-                                                  '.product-reviews-form-actions-button-submit',
-                                                  function() {
-                                                    browser.verify.containsText(
-                                                      'p[data-validation-error="block"]',
-                                                      'Rating is required'
-                                                    );
-                                                    //console the error msg for review title
-                                                  }
-                                                );
+                                                browser
+                                                  .setValue(
+                                                    '.product-reviews-form-content-group-input#title',
+                                                    ''
+                                                  )
+                                                  .setValue(
+                                                    '.product-reviews-form-content-group-text',
+                                                    'demo description'
+                                                  )
+                                                  .click(
+                                                    '.product-reviews-form-actions-button-submit',
+                                                    function() {
+                                                      browser.verify.containsText(
+                                                        "div[data-input='title'] p[data-validation-error='block']",
+                                                        'Title is required'
+                                                      );
+                                                      //console the error msg for review title
+                                                    }
+                                                  );
                                               }
                                             );
                                           }
