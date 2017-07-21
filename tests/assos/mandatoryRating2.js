@@ -1,10 +1,9 @@
 module.exports = {
   ['Rating cannot be empty']: browser => {
     browser
-      .openBrowser()
-      .clickWriteReview()
+      .openBrowser('http://test.assos.com/TSHIRT/newReview')
       .login('button[data-action="show-productlist-control"]')
-      .waitForElementVisible('.product-reviews-form-new', 10000)
+      .waitForElementVisible('.product-reviews-form-new', 5000)
       .click("div[data-name='Performance'] button[value='3']")
       .click("div[data-name='Style'] button[value='3']")
       .click("div[data-name=' True to Size'] button[value='3']")

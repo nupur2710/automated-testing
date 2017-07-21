@@ -1,60 +1,72 @@
-18:13:27.687 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-18:13:27.687 INFO - Launching a standalone Selenium Server
-2017-07-21 18:13:27.737:INFO::main: Logging initialized @521ms to org.seleniumhq.jetty9.util.log.StdErrLog
-18:13:27.789 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+18:58:38.641 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+18:58:38.642 INFO - Launching a standalone Selenium Server
+2017-07-21 18:58:38.757:INFO::main: Logging initialized @2319ms to org.seleniumhq.jetty9.util.log.StdErrLog
+18:58:38.878 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-18:13:27.790 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+18:58:38.879 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-18:13:27.790 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-18:13:27.790 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+18:58:38.879 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:58:38.879 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-18:13:27.790 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-18:13:27.790 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-07-21 18:13:27.835:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-07-21 18:13:27.879:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
-2017-07-21 18:13:27.921:INFO:osjs.AbstractConnector:main: Started ServerConnector@752f38c1{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-07-21 18:13:27.922:INFO:osjs.Server:main: Started @706ms
-18:13:27.922 INFO - Selenium Server is up and running
-18:13:28.368 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-18:13:28.394 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Assos / Provide Rating Performance Title Descp Recommend, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-18:13:28.420 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Assos / Provide Rating Performance Title Descp Recommend, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 19653
+18:58:38.879 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:58:38.879 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-21 18:58:39.012:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-21 18:58:39.222:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-07-21 18:58:39.444:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-21 18:58:39.444:INFO:osjs.Server:main: Started @3007ms
+18:58:39.445 INFO - Selenium Server is up and running
+18:58:40.109 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+18:58:40.157 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Assos / Provide Rating Performance Title Descp Recommend, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+18:58:40.265 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Assos / Provide Rating Performance Title Descp Recommend, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 33520
 Only local connections are allowed.
-18:13:30.998 INFO - Detected dialect: OSS
-18:13:31.027 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Assos / Provide Rating Performance Title Descp Recommend, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-18:13:31.055 INFO - Executing: [get: http://test.assos.com/TSHIRT/newReview])
-18:14:31.061 INFO - Executing: [set window size])
-18:14:36.344 INFO - Done: [get: http://test.assos.com/TSHIRT/newReview]
-18:14:36.512 INFO - Done: [set window size]
-18:14:36.520 INFO - Executing: [find elements: By.cssSelector: button[data-action="show-productlist-control"]])
-18:14:36.545 INFO - Done: [find elements: By.cssSelector: button[data-action="show-productlist-control"]]
-18:14:37.057 INFO - Executing: [find elements: By.cssSelector: button[data-action="show-productlist-control"]])
-18:14:37.072 INFO - Done: [find elements: By.cssSelector: button[data-action="show-productlist-control"]]
-18:14:37.581 INFO - Executing: [find elements: By.cssSelector: button[data-action="show-productlist-control"]])
-18:14:37.592 INFO - Done: [find elements: By.cssSelector: button[data-action="show-productlist-control"]]
-18:14:38.102 INFO - Executing: [find elements: By.cssSelector: button[data-action="show-productlist-control"]])
-18:14:38.340 INFO - Done: [find elements: By.cssSelector: button[data-action="show-productlist-control"]]
-18:14:38.353 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: button[data-action="show-productlist-control"]]])
-18:14:38.400 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: button[data-action="show-productlist-control"]]]
-18:14:38.407 INFO - Executing: [find element: By.cssSelector: button[data-action="show-productlist-control"]])
-18:14:38.434 INFO - Done: [find element: By.cssSelector: button[data-action="show-productlist-control"]]
-18:14:38.439 INFO - Executing: [click: 0 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: button[data-action="show-productlist-control"]]])
-18:15:03.092 INFO - Done: [click: 0 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: button[data-action="show-productlist-control"]]]
-18:15:03.101 INFO - Executing: [find elements: By.cssSelector: .login-register-login-form-input#login-email])
-18:15:03.123 INFO - Done: [find elements: By.cssSelector: .login-register-login-form-input#login-email]
-18:15:03.127 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: .login-register-login-form-input#login-email]])
-18:15:03.151 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: .login-register-login-form-input#login-email]]
-18:15:03.156 INFO - Executing: [find element: By.cssSelector: #login-email])
-18:15:03.175 INFO - Done: [find element: By.cssSelector: #login-email]
-18:15:03.181 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: .login-register-login-form-input#login-email], [t, e, s, t, ., p, a, p, e, r, p, l, a, n, e, @, g, m, a, i, l, ., c, o, m]])
-18:15:03.346 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: .login-register-login-form-input#login-email], [t, e, s, t, ., p, a, p, e, r, p, l, a, n, e, @, g, m, a, i, l, ., c, o, m]]
-18:15:03.353 INFO - Executing: [find element: By.cssSelector: #login-password])
-18:15:03.375 INFO - Done: [find element: By.cssSelector: #login-password]
-18:15:03.379 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: #login-password], [1, 2, 3, a, s, s, o, s]])
-18:15:03.457 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: #login-password], [1, 2, 3, a, s, s, o, s]]
-18:15:03.461 INFO - Executing: [find element: By.cssSelector: #login-button])
-18:15:03.483 INFO - Done: [find element: By.cssSelector: #login-button]
-18:15:03.486 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: #login-button]])
-18:15:03.569 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (9d7853843d79cc427fab0b64812ccfa8)] -> css selector: #login-button]]
-18:15:03.575 INFO - Executing: [delete session: 462a5404-d676-4857-83ea-1246ada2412e])
-18:15:03.892 INFO - Done: [delete session: 462a5404-d676-4857-83ea-1246ada2412e]
+18:58:47.121 INFO - Detected dialect: OSS
+18:58:47.213 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Assos / Provide Rating Performance Title Descp Recommend, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+18:58:47.263 INFO - Executing: [get: http://test.assos.com/TSHIRT/newReview])
+18:59:11.746 INFO - Done: [get: http://test.assos.com/TSHIRT/newReview]
+18:59:11.758 INFO - Executing: [set window size])
+18:59:11.972 INFO - Done: [set window size]
+18:59:11.980 INFO - Executing: [find elements: By.cssSelector: button[data-action="show-productlist-control"]])
+18:59:12.009 INFO - Done: [find elements: By.cssSelector: button[data-action="show-productlist-control"]]
+18:59:12.517 INFO - Executing: [find elements: By.cssSelector: button[data-action="show-productlist-control"]])
+18:59:12.528 INFO - Done: [find elements: By.cssSelector: button[data-action="show-productlist-control"]]
+18:59:13.045 INFO - Executing: [find elements: By.cssSelector: button[data-action="show-productlist-control"]])
+18:59:13.068 INFO - Done: [find elements: By.cssSelector: button[data-action="show-productlist-control"]]
+18:59:13.074 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: button[data-action="show-productlist-control"]]])
+18:59:13.105 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: button[data-action="show-productlist-control"]]]
+18:59:13.115 INFO - Executing: [find element: By.cssSelector: button[data-action="show-productlist-control"]])
+18:59:13.137 INFO - Done: [find element: By.cssSelector: button[data-action="show-productlist-control"]]
+18:59:13.142 INFO - Executing: [click: 0 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: button[data-action="show-productlist-control"]]])
+19:00:13.157 INFO - Executing: [find elements: By.cssSelector: .login-register-login-form-input#login-email])
+19:00:13.571 INFO - Done: [click: 0 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: button[data-action="show-productlist-control"]]]
+19:00:13.597 INFO - Done: [find elements: By.cssSelector: .login-register-login-form-input#login-email]
+19:00:13.601 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: .login-register-login-form-input#login-email]])
+19:00:13.623 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: .login-register-login-form-input#login-email]]
+19:00:13.629 INFO - Executing: [find element: By.cssSelector: #login-email])
+19:00:13.652 INFO - Done: [find element: By.cssSelector: #login-email]
+19:00:13.661 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: .login-register-login-form-input#login-email], [t, e, s, t, ., p, a, p, e, r, p, l, a, n, e, @, g, m, a, i, l, ., c, o, m]])
+19:00:13.934 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: .login-register-login-form-input#login-email], [t, e, s, t, ., p, a, p, e, r, p, l, a, n, e, @, g, m, a, i, l, ., c, o, m]]
+19:00:13.940 INFO - Executing: [find element: By.cssSelector: #login-password])
+19:00:13.961 INFO - Done: [find element: By.cssSelector: #login-password]
+19:00:13.966 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: #login-password], [1, 2, 3, a, s, s, o, s]])
+19:00:14.045 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: #login-password], [1, 2, 3, a, s, s, o, s]]
+19:00:14.051 INFO - Executing: [find element: By.cssSelector: #login-button])
+19:00:14.072 INFO - Done: [find element: By.cssSelector: #login-button]
+19:00:14.077 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: #login-button]])
+19:00:14.143 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (73c26ca6b0a6081d2fdff556390fdff4)] -> css selector: #login-button]]
+19:00:14.151 INFO - Executing: [find elements: By.cssSelector: .product-reviews-form-new])
+19:00:14.171 INFO - Done: [find elements: By.cssSelector: .product-reviews-form-new]
+19:00:14.677 INFO - Executing: [find elements: By.cssSelector: .product-reviews-form-new])
+19:00:14.687 INFO - Done: [find elements: By.cssSelector: .product-reviews-form-new]
+19:00:15.197 INFO - Executing: [find elements: By.cssSelector: .product-reviews-form-new])
+19:00:15.206 INFO - Done: [find elements: By.cssSelector: .product-reviews-form-new]
+19:00:15.714 INFO - Executing: [find elements: By.cssSelector: .product-reviews-form-new])
+19:00:15.723 INFO - Done: [find elements: By.cssSelector: .product-reviews-form-new]
+19:00:16.229 INFO - Executing: [find elements: By.cssSelector: .product-reviews-form-new])
+19:00:16.239 INFO - Done: [find elements: By.cssSelector: .product-reviews-form-new]
+19:00:16.747 INFO - Executing: [find elements: By.cssSelector: .product-reviews-form-new])
+19:00:16.757 INFO - Done: [find elements: By.cssSelector: .product-reviews-form-new]
+19:00:17.266 INFO - Executing: [find elements: By.cssSelector: .product-reviews-form-new])
+19:00:38.865 INFO - Done: [find elements: By.cssSelector: .product-reviews-form-new]
+19:00:38.871 INFO - Executing: [delete session: fa8ab95a-febf-4229-9ae7-d82b46ffea91])
+19:00:39.231 INFO - Done: [delete session: fa8ab95a-febf-4229-9ae7-d82b46ffea91]

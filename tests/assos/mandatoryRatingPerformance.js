@@ -1,10 +1,9 @@
 module.exports = {
   ['Rating and Performance, Style, True to Size and Comfort Parameters cannot be empty']: browser => {
     browser
-      .openBrowser()
-      .clickWriteReview()
+      .openBrowser('http://test.assos.com/TSHIRT/newReview')
       .login('button[data-action="show-productlist-control"]')
-      .waitForElementVisible('.product-reviews-form-new', 10000)
+      .waitForElementVisible('.product-reviews-form-new', 5000)
       .click('.product-reviews-form-actions-button-submit')
       .verify.containsText(
         'div[data-name="__overall__"] p[data-validation-error="block"]',

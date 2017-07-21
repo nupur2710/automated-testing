@@ -1,10 +1,9 @@
 module.exports = {
   ['Performance, Style, True to Size and Comfort Parameters cannot be empty when Rating, Review Title and Description are provided']: browser => {
     browser
-      .openBrowser()
-      .clickWriteReview()
+      .openBrowser('http://test.assos.com/TSHIRT/newReview')
       .login('button[data-action="show-productlist-control"]')
-      .waitForElementVisible('.product-reviews-form-new', 10000)
+      .waitForElementVisible('.product-reviews-form-new', 5000)
       .click(
         ".product-reviews-form-global-star-rating .global-views-star-rating-area-writable button[value='2']"
       )
