@@ -3,7 +3,7 @@ module.exports = {
     browser
       .openBrowser('http://test.assos.com/TSHIRT/newReview')
       .login('button[data-action="show-productlist-control"]')
-      .waitForElementVisible('.product-reviews-form-new', 5000)
+      .waitForElementVisible('.product-reviews-form-new', 9500)
       .click(
         ".product-reviews-form-global-star-rating .global-views-star-rating-area-writable button[value='2']"
       )

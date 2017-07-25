@@ -10,4 +10,5 @@ module.exports = {
       .setValue('#login-password', '123assos')
       .click('#login-button');
   },
+  //login via different places
 };
