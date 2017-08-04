@@ -8,6 +8,8 @@ module.exports = {
       )
       .setValue('#login-email', 'test.paperplane@gmail.com')
       .setValue('#login-password', '123assos')
-      .click('#login-button');
+      .click(
+        'button#login-button.login-register-login-submit.secondary-button'
+      );
   },
 };

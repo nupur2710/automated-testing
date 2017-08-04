@@ -1,4 +1,13 @@
 {
-    "email":"test.paperplane@gmail.com",
-    "password":"123assos"
+  "person": [
+    {
+      "name": "Nupur"
+    },
+    {
+      "name": "Purab"
+    },
+    {
+      "name": "Lubna"
+    }
+  ]
 }
